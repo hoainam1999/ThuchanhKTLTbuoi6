@@ -1,5 +1,5 @@
 class str1():
-    def __init__(self):
+    def __init__(self, str1):
         self.str1 = ""
 
     def get_String(self):
@@ -8,6 +8,6 @@ class str1():
     def print_String(self):
         print(self.str1.upper())
 
-str1 = IOString()
+
 str1.get_String()
 str1.print_String()
